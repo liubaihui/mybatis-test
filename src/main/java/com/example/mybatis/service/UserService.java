@@ -1,8 +1,8 @@
-package com.example.exampleMybatis.service;
+package com.example.mybatis.service;
 
-import com.example.exampleMybatis.dto.UserDto;
-import com.example.exampleMybatis.repository.entity.User;
-import com.example.exampleMybatis.repository.mapper.UserMapper;
+import com.example.mybatis.dto.UserDto;
+import com.example.mybatis.repository.entity.User;
+import com.example.mybatis.repository.mapper.UserMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

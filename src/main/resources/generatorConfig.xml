@@ -16,7 +16,7 @@
                         userId="root"
                         password="root" />
 
-        <javaModelGenerator targetPackage="com.example.exampleMybatis.repository.entity" targetProject="src/main/java" >
+        <javaModelGenerator targetPackage="com.example.mybatis.repository.entity" targetProject="src/main/java" >
             <property name="enableSubPackages" value="true" />
         </javaModelGenerator>
         <!--<sqlMapGenerator targetPackage="com.yiche.bdc.olap.api.repository.mapper" targetProject="src/main/resources" />-->
@@ -25,11 +25,11 @@
 
 
         <!--指定sql映射文件生成的位置 -->
-        <sqlMapGenerator targetPackage="com.example.exampleMybatis.repository.mapper" targetProject="src/main/resources" >
+        <sqlMapGenerator targetPackage="com.example.mybatis.repository.mapper" targetProject="src/main/resources" >
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
         <!-- 指定dao接口生成的位置，mapper接口 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.exampleMybatis.repository.mapper" targetProject="src/main/java" >
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.example.mybatis.repository.mapper" targetProject="src/main/java" >
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 

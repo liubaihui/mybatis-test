@@ -1,4 +1,4 @@
-package com.example.exampleMybatis.dto;
+package com.example.mybatis.dto;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

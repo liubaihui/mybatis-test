@@ -1,4 +1,4 @@
-package com.example.exampleMybatis.repository.entity;
+package com.example.mybatis.repository.entity;
 
 public class User {
     private Integer id;
