@@ -12,9 +12,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
+
 public class ModelMapperConfig {
     @Bean
     public ModelMapper modelMapper(){
+
         ModelMapper modelMapper =  new ModelMapper();
         modelMapper.getConfiguration().setFullTypeMatchingRequired(true);
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
